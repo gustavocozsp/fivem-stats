@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 
-class Status {
+class Stats {
 	constructor(ip) {
 		if (!ip) throw Error('Please provide an IP.');
 
@@ -285,4 +285,4 @@ class Status {
 	}
 }
 
-module.exports.Status = Status;
+module.exports.Stats = Stats;

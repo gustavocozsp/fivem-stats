@@ -1,6 +1,6 @@
 {
-  "name": "fivem-status",
-  "version": "1.0.0",
+  "name": "fivem-stats",
+  "version": "1.0.1",
   "description": "API for getting FiveM server info & status using node-fetch module",
   "credits": "This is a module that already existed but made using the axios module, I rewrote it using the node-fetch module and added some functions (Official Module: https://github.com/JackCrispy/fivem)",
   "main": "index.js",
@@ -9,19 +9,20 @@
   },
   "keywords": [
     "fivem-status server",
-    "five-status",
+    "fivem-status",
+    "fivem-stats",
     "fivem js",
     "fivem",
     "api"
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/impugne/fivem-status.git"
+    "url": "git+ssh://git@github.com/impugne/fivem-stats.git"
   },
   "author": "impugne",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/impugne/fivem-status/issues"
+    "url": "https://github.com/impugne/fivem-stats/issues"
   },
   "homepage": "https://github.com/impugne/",
   "dependencies": {
