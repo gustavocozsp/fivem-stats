@@ -1,18 +1,17 @@
 const fetch = require('node-fetch');
 
 class Status {
-	constructor(ip, options) {
+	constructor(ip) {
 		if (!ip) throw Error('Please provide an IP.');
 
 		this.ip = ip;
-		this.options = Object.assign(options);
 	}
 
 	getPlayers() {
 		return new Promise((send, err) => {
 			fetch(`http://${this.ip}/players.json`, {
 				"method": "GET",
-				"timeout": "1000"
+				"timeout": '1000'
 			})
 				.then(res => res.json())
 				.then(body => {
@@ -29,7 +28,7 @@ class Status {
 		return new Promise((send, err) => {
 			fetch(`http://${this.ip}/players.json`, {
 				"method": "GET",
-				"timeout": "1000"
+				"timeout": '1000'
 			})
 				.then(res => res.json())
 				.then(body => {
@@ -46,7 +45,7 @@ class Status {
 		return new Promise((send, err) => {
 			fetch(`http://${this.ip}/info.json`, {
 				"method": "GET",
-				"timeout": "1000"
+				"timeout": '1000'
 			})
 				.then(res => res.json())
 				.then(body => {
@@ -68,7 +67,7 @@ class Status {
 		return new Promise((send, err) => {
 			fetch(`http://${this.ip}/info.json`, {
 				"method": "GET",
-				"timeout": "1000"
+				"timeout": '1000'
 			})
 				.then(res => res.json())
 				.then(body => {
@@ -85,7 +84,7 @@ class Status {
 		return new Promise((send, err) => {
 			fetch(`http://${this.ip}/info.json`, {
 				"method": "GET",
-				"timeout": "1000"
+				"timeout": '1000'
 			})
 				.then(res => res.json())
 				.then(body => {
@@ -102,7 +101,7 @@ class Status {
 		return new Promise((send, err) => {
 			fetch(`http://${this.ip}/info.json`, {
 				"method": "GET",
-				"timeout": "1000"
+				"timeout": '1000'
 			})
 				.then(res => res.json())
 				.then(body => {
@@ -119,7 +118,7 @@ class Status {
 		return new Promise((send, err) => {
 			fetch(`http://${this.ip}/info.json`, {
 				"method": "GET",
-				"timeout": "1000"
+				"timeout": '1000'
 			})
 				.then(res => res.json())
 				.then(body => {
@@ -136,7 +135,7 @@ class Status {
 		return new Promise((send, err) => {
 			fetch(`http://${this.ip}/info.json`, {
 				"method": "GET",
-				"timeout": "1000"
+				"timeout": '1000'
 			})
 				.then(res => res.json())
 				.then(body => {
@@ -153,7 +152,7 @@ class Status {
 		return new Promise((send, err) => {
 			fetch(`http://${this.ip}/info.json`, {
 				"method": "GET",
-				"timeout": "1000"
+				"timeout": '1000'
 			})
 				.then(res => res.json())
 				.then(body => {
@@ -170,7 +169,7 @@ class Status {
 		return new Promise((send, err) => {
 			fetch(`http://${this.ip}/info.json`, {
 				"method": "GET",
-				"timeout": "1000"
+				"timeout": '1000'
 			})
 				.then(res => res.json())
 				.then(body => {
@@ -187,7 +186,7 @@ class Status {
 		return new Promise((send, err) => {
 			fetch(`http://${this.ip}/info.json`, {
 				"method": "GET",
-				"timeout": "1000"
+				"timeout": '1000'
 			})
 				.then(res => res.json())
 				.then(body => {
@@ -204,7 +203,7 @@ class Status {
 		return new Promise((send, err) => {
 			fetch(`http://${this.ip}/info.json`, {
 				"method": "GET",
-				"timeout": "1000"
+				"timeout": '1000'
 			})
 				.then(res => res.json())
 				.then(body => {
@@ -221,7 +220,7 @@ class Status {
 		return new Promise((send, err) => {
 			fetch(`http://${this.ip}/info.json`, {
 				"method": "GET",
-				"timeout": "1000"
+				"timeout": '1000'
 			})
 				.then(res => res.json())
 				.then(body => {
@@ -238,7 +237,7 @@ class Status {
 		return new Promise((send, err) => {
 			fetch(`http://${this.ip}/info.json`, {
 				"method": "GET",
-				"timeout": "1000"
+				"timeout": '1000'
 			})
 				.then(res => res.json())
 				.then(body => {
@@ -255,7 +254,7 @@ class Status {
 		return new Promise((send, err) => {
 			fetch(`http://${this.ip}/info.json`, {
 				"method": "GET",
-				"timeout": "1000"
+				"timeout": '1000'
 			})
 				.then(res => res.json())
 				.then(body => {
@@ -272,7 +271,7 @@ class Status {
 		return new Promise((send, err) => {
 			fetch(`http://${this.ip}/info.json`, {
 				"method": "GET",
-				"timeout": "1000"
+				"timeout": '1000'
 			})
 				.then(res => res.json())
 				.then(body => {

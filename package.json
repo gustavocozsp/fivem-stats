@@ -1,5 +1,5 @@
 {
-  "name": "@impugne/fivem-status",
+  "name": "fivem-status",
   "version": "1.0.0",
   "description": "API for getting FiveM server info & status using node-fetch module",
   "credits": "This is a module that already existed but made using the axios module, I rewrote it using the node-fetch module and added some functions (Official Module: https://github.com/JackCrispy/fivem)",
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:impugne/fivem-status.git"
+    "url": "git+ssh://git@github.com/impugne/fivem-status.git"
   },
   "author": "impugne",
   "license": "ISC",

@@ -12,8 +12,8 @@ npm i fivem-status
 
 See the server status (json)
 ```js
-const FiveMStatus = require('fivem-status'); //Import the module
-const server = new FiveMStatus.Server('IPAddress:PORT'); //Set the server's IP Address and Port
+const FiveM = require('fivem-status'); //Import the module
+const server = new FiveM.Status('IPAddress:PORT'); //Set the server's IP Address and Port
 
 server.getServerStatus().then(data => console.log(data)); //Get & log the Server Status!
 
@@ -23,16 +23,16 @@ server.getServerStatus().then(data => console.log(data)); //Get & log the Server
 
 Get Player Count (in numbers)
 ```js
-const FiveMStatus = require('fivem-status'); //Import the module
-const server = new FiveMStatus.Server('IPAddress:PORT'); //Set the server's IP Address and Port
+const FiveM = require('fivem-status'); //Import the module
+const server = new FiveM.Status('IPAddress:PORT'); //Set the server's IP Address and Port
  
 server.getPlayers().then(data => console.log(data)) // Get & log the number of players online in the server!
 ```
 
 Get all Resources
 ```js
-const FiveMStatus = require('fivem-status'); //Import the module
-const server = new FiveMStatus.Server('IPAddress:PORT'); //Set the server's IP Address and Port
+const FiveM = require('fivem-status'); //Import the module
+const server = new FiveM.Status('IPAddress:PORT'); //Set the server's IP Address and Port
  
 server.getResources().then(data => console.log(data)) // Get & Log the resources of server!
 ```
