@@ -3,8 +3,8 @@ API for getting FiveM server info & status now using node-fetch module.
 
 ## Installation
 ```
-npm install fivem-status
-npm i fivem-status
+npm install fivem-stats
+npm i fivem-stats
 ```
 
 ## Usage
